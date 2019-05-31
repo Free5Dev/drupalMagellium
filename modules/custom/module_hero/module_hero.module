@@ -1,0 +1,13 @@
+<?php 
+
+function module_hero_theme($existing, $type, $theme, $path){
+
+    return [
+        'module-hero' =>[
+            'variables' =>[
+                'items' => [],
+                 'title' => ''
+            ],   
+        ]
+    ];
+}

@@ -1,0 +1,6 @@
+name: Hero Module
+description: Description du module Hero
+package: Hero Package
+
+type: module
+core: 8.x
