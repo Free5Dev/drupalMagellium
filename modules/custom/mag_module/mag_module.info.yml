@@ -1,0 +1,6 @@
+name: Magellium Module
+description: Description du Module Magellium
+package: Magellium Package
+
+type: module
+core: 8.x

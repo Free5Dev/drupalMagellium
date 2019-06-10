@@ -1,0 +1,34 @@
+mag_module.magList:
+  path: '/mag'
+  defaults:
+    _controller:  '\Drupal\mag_module\Controller\MagController::magList'
+    _title: 'Title for Module Magellium'
+  requirements: 
+    _permission: 'access content'
+
+# routing for form
+mag.form:
+  path: '/mag-form'
+  defaults:
+    _title: 'Magellium form'
+    _form: '\Drupal\mag_module\Form\MagForm'
+  requirements:
+    _permission: 'access content'
+
+
+ #routing for form
+element.form:
+  path: '/element-form'
+  defaults:
+    _title: 'Magellium Element form'
+    _form: '\Drupal\mag_module\Form\ElementForm'
+  requirements:
+    _permission: 'access content'
+# ajax form routing
+ajax.form:
+  path: '/ajax-form'
+  defaults:
+    _title: 'Ajax Mag Form'
+    _form: '\Drupal\mag_module\Form\AjaxMagForm'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,7 @@
+{{ attach_library('mag_module/mag-style') }}
+<ol>
+    {% for item in items %}
+        <li class=" animated {{ random(['flash', 'pulse', 'rubberBand']) }}"><p>{{ item.name }}</p></li>
+    {% endfor %}
+</ol>
+<h1 class="animated bounce">{{titre}}</h1>

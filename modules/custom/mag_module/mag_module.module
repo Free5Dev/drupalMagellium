@@ -1,0 +1,13 @@
+<?php 
+
+function mag_module_theme($existing, $type, $theme, $path){
+
+    return [
+        'mag-module' =>[
+            'variables' =>[
+                'items' => [],
+                'titre' => ''
+            ]
+        ]
+    ];
+}
